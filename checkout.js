@@ -16,8 +16,8 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 
 // 2. ДАНІ ДЛЯ TELEGRAM
-const TELEGRAM_BOT_TOKEN = '8538424384:AAGGmG6G-zKTNJ1lwzfSrqygTv1i5VH6Jro';
-const TELEGRAM_CHAT_ID = '5151112559';
+const TELEGRAM_BOT_TOKEN ='8674529703:AAEl2mwucAFuAjkuwRmm9TWryTyEowNzEk4';
+const TELEGRAM_CHAT_ID = '1129192001';
 
 // 3. РОБОТА З КОШИКОМ
 let cart = JSON.parse(localStorage.getItem('cart')) || [];
